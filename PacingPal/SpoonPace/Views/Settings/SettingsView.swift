@@ -78,7 +78,7 @@ struct SettingsView: View {
             // Write to temporary file
             let dateFormatter = DateFormatter()
             dateFormatter.dateFormat = "yyyy-MM-dd-HHmmss"
-            let fileName = "EnergyBuddy-Export-\(dateFormatter.string(from: Date())).json"
+            let fileName = "SpoonPace-Export-\(dateFormatter.string(from: Date())).json"
             let tempURL = FileManager.default.temporaryDirectory.appendingPathComponent(fileName)
             try jsonData.write(to: tempURL)
 
@@ -99,7 +99,7 @@ struct SettingsView: View {
                             .frame(width: 32, height: 32)
                             .foregroundColor(theme.primary)
                         VStack(alignment: .leading, spacing: 4) {
-                            Text(String(localized: "EnergyBuddy Pro"))
+                            Text(String(localized: "SpoonPace Pro"))
                                 .font(.headline)
                             Text(String(localized: "Active"))
                                 .font(.caption)
@@ -157,7 +157,7 @@ struct SettingsView: View {
                     ShareLink(
                         item: exportURL,
                         preview: SharePreview(
-                            String(localized: "EnergyBuddy Data Export"),
+                            String(localized: "SpoonPace Data Export"),
                             image: Image(systemName: "square.and.arrow.up")
                         )
                     ) {

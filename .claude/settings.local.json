@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv EnergyBuddy.entitlements SpoonPace.entitlements)",
+      "Bash(mv EnergyBuddy-Info.plist SpoonPace-Info.plist)"
+    ]
+  }
+}

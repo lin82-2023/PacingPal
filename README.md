@@ -1,6 +1,6 @@
-# EnergyBuddy / 量记
+# SpoonPace / 量记
 
-> EnergyBuddy - Energy management app for Long COVID and ME/CFS patients.
+> SpoonPace - Energy management app for Long COVID and ME/CFS patients.
 > 量记 - 为长新冠/慢性疲劳综合症患者设计的能量管理和症状追踪应用。
 
 ## 🎯 项目目标
@@ -39,7 +39,7 @@ App Store 上现有应用要么：
 
 ## 🎨 命名
 
-**English:** EnergyBuddy
+**English:** SpoonPace
 - Easy to remember, clearly communicates what it does
 - "Energy" is the core concept we manage
 - "Buddy" = friendly helper that's always with you
